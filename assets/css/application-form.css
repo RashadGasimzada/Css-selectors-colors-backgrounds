@@ -1,0 +1,32 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  width: 70px;
+}
+body {
+    background-color: lightcyan;
+}
+.form {
+    width: 700px;
+    height: 813px;
+    background: white;
+    padding: 20px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+#button {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 80px;
+}

@@ -1,0 +1,54 @@
+.intro {
+    background-color: cadetblue;
+}
+.name1.name2 {
+    background-color: cadetblue;
+}
+.name1.name2 .name3 {
+    background-color: cadetblue;
+}
+#firstname {
+    background-color: cadetblue;
+}
+* {
+    background-color: rosybrown;
+}
+p {
+    background-color: salmon;
+}
+p.p-tag {
+    background-color: seagreen;
+}
+a,button {
+    background-color: slateblue;
+}
+.name3 p {
+    background-color: tomato;
+}
+.name3 > #hey-value {
+    background-color: violet;
+}
+.name3 + p {
+    background-color: yellowgreen;
+}
+p ~ ul {
+    color: yellow;
+}
+[target] {
+    background-color: brown;
+}
+[class~=h2-tag] {
+    background-color: darkcyan;
+}
+a:active {
+    background-color: darkred;
+}
+p::after {
+    content: " Test2";
+}
+p::before {
+    content: "Test1 ";
+}
+a:hover {
+    background-color: deeppink;
+}
